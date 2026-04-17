@@ -37,6 +37,25 @@ If the behavior depends on runtime conditions, choose Decorator; if it’s a pre
 
 A facade is just a coordinator class that hides complexity. You're probably already building facades in every LLD interview without calling them that. Your Game class in Tic Tac Toe? That's a facade. 
 
+# Behavioral
+---
+
+Behavioral patterns control how objects interact and distribute responsibilities. They're about the flow of control and communication between objects.
+
+### Strategy
+
+Strategy replaces conditional logic with polymorphism. Use it when you have different ways of doing the same thing and you want to swap them at runtime.
+
+When you see a pile of if/else or switch statements based on type, that's a strategy pattern waiting to happen.
+
+### Observer
+
+Observer lets objects subscribe to events and get notified when something happens. Use it when changes in one object need to trigger updates in other objects.
+
+It shows up when you're designing systems where multiple components care about state changes—a stock price changes and multiple displays need to update, or a user places an order and inventory, notifications, and analytics all need to know. If the problem involves the words "notify" or "update multiple components," you're probably looking at Observer.
+
+
+
 
 
 

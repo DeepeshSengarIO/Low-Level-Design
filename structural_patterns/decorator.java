@@ -1,7 +1,5 @@
 package structural_patterns;
 
-import javax.xml.crypto.Data;
-
 public class decorator {
     
     interface DataSource{
